@@ -97,6 +97,7 @@ export const handleImageUpload = ({
   syncShapeInStorage,
 }: ImageUpload) => {
   const reader = new FileReader();
+  console.log(file)
 
   reader.onload = () => {
     fabric.Image.fromURL(reader.result as string, (img) => {
