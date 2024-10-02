@@ -4,12 +4,12 @@ import {
   useEventListener,
   useMyPresence,
 } from "@liveblocks/react";
-import LiveCursors from "./cursor/LiveCursors";
+import LiveCursors from "./Cursor/LiveCursors";
 import { useCallback, useEffect, useState } from "react";
-import CursorChat from "./cursor/CursorChat";
+import CursorChat from "./Cursor/CursorChat";
 import { CursorMode, CursorState, Reaction } from "@/types/type";
-import ReactionSelector from "./reaction/ReactionButton";
-import FlyingReaction from "./reaction/FlyingReaction";
+import ReactionSelector from "./Reaction/ReactionButton";
+import FlyingReaction from "./Reaction/FlyingReaction";
 import useInterval from "@/hooks/useInterval";
 import {
   ContextMenu,

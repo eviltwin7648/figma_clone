@@ -8,7 +8,7 @@ import { ActiveElement, NavbarProps } from "@/types/type";
 
 import { Button } from "./ui/button";
 import ShapesMenu from "./ShapesMenu";
-import ActiveUsers from "./users/ActiveUsers";
+import ActiveUsers from "./Users/ActiveUsers";
 
 const Navbar = ({ activeElement, imageInputRef, handleImageUpload, handleActiveElement }: NavbarProps) => {
   const isActive = (value: string | Array<ActiveElement>) =>
